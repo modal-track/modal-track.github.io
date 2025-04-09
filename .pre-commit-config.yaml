@@ -14,6 +14,6 @@ repos:
       - id: black
 
   - repo: https://github.com/PyCQA/flake8
-    rev: 6.0.0  # Usa la versión de flake8 para análisis de código Python por ejemplo
+    rev: 6.0.0  # Usa la versión de flake8 para análisis de código Python
     hooks:
       - id: flake8
