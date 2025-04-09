@@ -6,6 +6,7 @@ repos:
       - id: end-of-file-fixer    # Asegura que los archivos terminen en una nueva línea
       - id: check-yaml           # Valida archivos YAML
       - id: check-added-large-files  # Verifica si se han agregado archivos grandes
+        args: ['--maxkb=2000']
       - id: check-merge-conflict # Asegura que no haya conflictos de merge
 
   - repo: https://github.com/psf/black
