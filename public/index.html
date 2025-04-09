@@ -11,9 +11,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Transportes Modal Track</title>
-    <meta name="description" content="Empresa de trasporte de carga.">
-    <meta name="author" content="Geraldine Diaz">
+    <title>Trabaja con Nosotros</title>
+    <meta name="description" content="Trabaja con ModalTrack.">
+    <meta name="author" content="Kevin Prado">
     <!-- responsive-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- favicon-->
@@ -45,50 +45,55 @@
         </div>
         <nav class="mt-header__nav">
           <ul class="mt-header__list">
-            <li class="mt-header__list-item"><a class="mt-header__nav-link" href="/public/our-company.html">Nuestra compañia</a></li>
-            <li class="mt-header__list-item"><a class="mt-header__nav-link" href="#">Servicios</a></li>
-            <li class="mt-header__list-item"><a class="mt-header__nav-link" href="#">Trabaja con nosotros</a></li>
-            <li class="mt-header__list-item"><a class="mt-header__nav-link" href="#">Contacto</a></li>
+            <li class="mt-header__list-item"><a class="mt-header__nav-link" href="/public/nosotros.html">Nuestra compañia</a></li>
+            <li class="mt-header__list-item"><a class="mt-header__nav-link" href="/public/servicios.html">Servicios</a></li>
+            <li class="mt-header__list-item"><a class="mt-header__nav-link" href="/public/jobs.html">Trabaja con nosotros</a></li>
+            <li class="mt-header__list-item"><a class="mt-header__nav-link" href="/public/contacto.html">Contacto</a></li>
           </ul>
         </nav>
       </div>
     </header>
     <main class="mt-page__content">
-      <div class="mt-main-content">
-        <div class="mt-wrapper">
-          <div class="mt-hero">
-            <header class="mt-hero__header">
-              <h1 class="mt-hero__title">Estamos conectando la carga de las empresas con el país entero.</h1>
-              <p class="mt-hero__caption">Somos un grupo empresarial 100% Colombiano; Formado con el animo de llegar a cada eslabón de la cadena logística, conociendo sus principales problemáticas y brindando soluciones efectivas e innovadoras.</p></p><a class="mt-btn mt-hero__btn" href="#">Más informacíon</a>
-            </header>
-            <div class="mt-hero__image"></div>
+      <div class="mt-main-content mt-content--jobs-page">
+        <div class="mt-jobs-page">
+          <div class="mt-jobs-page-header">
+            <h1 class="mt-jobs-page__title">Trabaja con Nosotros</h1>
+            <p class="mt-jobs-page__text">Ofrecemos oportunidades de crecimiento, un ambiente de trabajo colaborativo y un salario competitivo. Si eres apasionado por la logística y buscas un lugar donde tu talento sea valorado, ¡te estamos buscando! Únete a nosotros y sé parte de la revolución del transporte de carga. ¡Aplica hoy y comienza tu viaje hacia una carrera gratificante y llena de posibilidades!</p>
+            <div class="mt-jobs-page__cont"><a class="mt-btn mt-hero__btn" href="#">Ver mas</a></div>
+          </div><img src="assets/images/jobs-page/jobs-page-mobile.jpg" alt="Imagen móvil" class="img-movil">
+<img src="assets/images/jobs-page/jobs-page-desktop-2.png" alt="Imagen 1 desktop" class="img-desktop-1">
+        </div><img src="assets/images/jobs-page/jobs-page-desktop.png" alt="Imagen 2 desktop" class="img-desktop-2">
+        <div class="mt-jobs-forms">
+          <div class="mt-jobs-forms__header">
+            <h1 class="mt-jobs-forms__title">Déjanos tus datos</h1>
+            <p class="mt-jobs-forms__text">Nos contactaremos contigo para conocerte y comenzar a transformar el transporte de carga juntos.</p>
+          </div>
+          <div class="mt-jobs-forms__content">
+            <form id="trabajaForm">
+              <label class="mt-jobs-forms__label">Nombre y apellido</label>
+              <input class="mt-jobs-forms__input" type="text" id="nombre" name="nombre" placeholder="Juan Pérez">
+              <label class="mt-jobs-forms__label">Número de celular</label>
+              <input class="mt-jobs-forms__input" type="text" id="celular" name="celular" placeholder="3011230000">
+              <label class="mt-jobs-forms__label">Correo electrónico</label>
+              <input class="mt-jobs-forms__input" type="email" id="correo" name="correo" placeholder="juanperez123@gmail.com">
+              <label class="mt-jobs-forms__label">Cargo</label>
+              <select class="mt-jobs-forms__select" id="cargo" name="cargo">
+                <option class="mt-jobs-forms__select-option" value="">Seleccione</option>
+                <option class="mt-jobs-forms__select-option" value="cargo1">Cargo 1</option>
+                <option class="mt-jobs-forms__select-option" value="cargo2">Cargo 2</option>
+                <option class="mt-jobs-forms__select-option" value="cargo3">Cargo 3</option>
+              </select>
+              <div class="mt-jobs__btn">
+                <input class="mt-btn mt-jobs__btn-selection" type="submit" value="Enviar información">
+              </div>
+            </form>
           </div>
         </div>
-        <article class="mt-cta">
-          <h3 class="mt-cta__title">Permitenos hacerte una oferta de transporte</h3><a class="mt-btn mt-btn--secondary mt-cta__btn" href="#">Solicitar oferta de transporte</a>
-        </article>
-        <div class="mt-wrapper">
-          <figure class="mt-services"><img class="mt-services__img" src="assets/images/services/services.png" alt="Camiones rojos">
-            <figcaption class="mt-services__content">
-              <h2 class="mt-services__title">Conoce nuestros servicios y déjanos transformar la logística de tu empresa hoy mismo.</h2><a class="mt-btn" href="#">Más informacíon</a>
-            </figcaption>
-          </figure>
-        </div>
-        <figure class="mt-people"><img class="mt-people__img" src="assets/images/people/people.png" alt="Cabina de conductor de camión">
-          <figcaption class="mt-people__content">
-            <h2 class="mt-people__title">Nuestra gente lo es todo</h2>
-            <p class="mt-people__text">Sé parte del motor que impulsa el éxito de nuestra empresa de transporte de carga.</p><a class="mt-btn" href="#">Trabaja con nostros</a>
-          </figcaption>
-        </figure>
-        <article class="mt-contact">
-          <div class="mt-wrapper">
-            <div class="mt-contact__content">
-              <p class="mt-contact__text">¿Tienes dudas?</p>
-              <h2 class="mt-contact__title">Contáctanos, tenemos múltiples canales de comunicación, elige el que más te guste</h2><a class="mt-btn" href="#">Contáctanos</a>
-            </div>
-          </div>
-        </article>
       </div>
+      <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+      <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+      <script type="module" src="scripts/script-email.js"></script>
+      <link rel="stylesheet" href="/styles/_jobs-page.css">
     </main>
     <!-- header-->
     <footer class="mt-footer">
