@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --watch app/styles/index.scss css/styles.css",
+    "sass": "sass --watch app/styles/index.scss public/css/styles.css",
     "pug": "pug $(find app/templates -type f -name '*.pug' ! -name '_*.pug') -o . --pretty -w"
   },
   "author": "",
