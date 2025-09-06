@@ -1743,6 +1743,26 @@ template {
     padding-bottom: 50px;
   }
 }
+.mt-content--pt-page {
+  margin: 100px 0 50px;
+  font-family: "Inter", sans-serif;
+}
+.mt-content--pt-page p {
+  padding-bottom: 16px;
+  line-height: 1.3;
+}
+
+.mt-content-pt-page__wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.mt-pt-page__title {
+  text-align: center;
+  font-family: "Source Sans 3", sans-serif;
+  padding-bottom: 30px;
+}
+
 .layout {
   width: 90%;
   margin: 0 auto;
