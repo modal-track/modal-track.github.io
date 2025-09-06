@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass --watch app/styles/index.scss public/css/styles.css",
+    "sass-td": "sass --watch app/styles/tratamiento-datos.scss public/css/tratamiento-datos.css",
     "pug": "pug $(find app/templates -type f -name '*.pug' ! -name '_*.pug') -o . --pretty -w"
   },
   "author": "",
