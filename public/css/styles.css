@@ -1805,6 +1805,7 @@ template {
 }
 .mt-content--tratamiento-page ul {
   margin: 10px 0 10px 24px;
+  list-style: disc;
 }
 .mt-content--tratamiento-page li {
   margin: 6px 0;
