@@ -60,6 +60,14 @@
   transition: all .5s cubic-bezier(0.32, 0, 0.67, 0) 3ms;
 }
 
+.mt-header__nav--open {
+  transform: translate(0, 0);
+
+  .mt-header__list {
+    opacity: 1;
+  }
+}
+
 .mt-header__list {
   opacity: 0;
   transition: all .5s cubic-bezier(0.32, 0, 0.67, 0) 3ms;
@@ -92,7 +100,7 @@
 }
 
 .mt-header__nav-link {
-  font-size: 30px;
+  font-size: 20px;
   color: #333333;
   font-family: $font-main;
   text-decoration: none;

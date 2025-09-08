@@ -115,6 +115,8 @@
 }
 
 .mt-footer__bottom-tyc {
+  border-top: 1px solid #D2D2D2;
+  padding-top: 16px;
   text-align: center;
 }
 
@@ -202,6 +204,8 @@
     justify-content: center;
     gap: 10px;
     color: $grey-tyc;
+    border-top: 0;
+    padding-top: 0;
 
     li {
       display: flex;
